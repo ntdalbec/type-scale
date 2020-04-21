@@ -31,14 +31,6 @@ h6: ${scale.h6}
 // body: 1em
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Classes
 
 <dl>
@@ -124,3 +116,11 @@ A collection of scales in terms of intervals.
 | MajorSeventh | <code>string</code> | <code>&quot;&quot;</code> | 
 | Octave | <code>string</code> | <code>2</code> | 
 
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
