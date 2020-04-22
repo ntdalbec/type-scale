@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "docs": "jsdoc2md --partial scope.hbs -t README.hbs Scale.js index.js > README.md"
+    "docs": "jsdoc2md --partial templates/scope.hbs -t templates/README.hbs Scale.js index.js > README.md"
   },
   "repository": {
     "type": "git",

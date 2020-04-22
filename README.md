@@ -100,21 +100,21 @@ A collection of scales in terms of intervals.
 **See**: [https://wikipedia.org/wiki/Interval_(music)](https://wikipedia.org/wiki/Interval_(music)) for more information  
 **Properties**
 
-| Name | Type | Default |
-| --- | --- | --- |
-| Unison | <code>string</code> | <code>1</code> | 
-| MinorSecond | <code>string</code> | <code>&quot;&quot;</code> | 
-| MajorSecond | <code>string</code> | <code>&quot;&quot;</code> | 
-| MinorThird | <code>string</code> | <code>&quot;&quot;</code> | 
-| MajorThird | <code>string</code> | <code>&quot;&quot;</code> | 
-| PerfectFourth | <code>string</code> | <code>&quot;&quot;</code> | 
-| DiminishedFifth | <code>string</code> | <code>&quot;&quot;</code> | 
-| PerfectFifth | <code>string</code> | <code>&quot;&quot;</code> | 
-| MinorSixth | <code>string</code> | <code>&quot;&quot;</code> | 
-| MajorSixth | <code>string</code> | <code>&quot;&quot;</code> | 
-| MinorSeventh | <code>string</code> | <code>&quot;&quot;</code> | 
-| MajorSeventh | <code>string</code> | <code>&quot;&quot;</code> | 
-| Octave | <code>string</code> | <code>2</code> | 
+| Name | Type | Default | Description |
+| --- | --- | --- | --- |
+| Unison | <code>string</code> | <code>1</code> | 1 |
+| MinorSecond | <code>string</code> | <code>&quot;&quot;</code> | 1.067 |
+| MajorSecond | <code>string</code> | <code>&quot;&quot;</code> | 1.125 |
+| MinorThird | <code>string</code> | <code>&quot;&quot;</code> | 1.2 |
+| MajorThird | <code>string</code> | <code>&quot;&quot;</code> | 1.25 |
+| PerfectFourth | <code>string</code> | <code>&quot;&quot;</code> | 1.333 |
+| DiminishedFifth | <code>string</code> | <code>&quot;&quot;</code> | 1.4 |
+| PerfectFifth | <code>string</code> | <code>&quot;&quot;</code> | 1.5 |
+| MinorSixth | <code>string</code> | <code>&quot;&quot;</code> | 1.6 |
+| MajorSixth | <code>string</code> | <code>&quot;&quot;</code> | 1.667 |
+| MinorSeventh | <code>string</code> | <code>&quot;&quot;</code> | 1.75 |
+| MajorSeventh | <code>string</code> | <code>&quot;&quot;</code> | 1.875 |
+| Octave | <code>string</code> | <code>2</code> | 2 |
 
 
 ## Contributing

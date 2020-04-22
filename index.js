@@ -18,24 +18,18 @@ class TypeScale {
 
         /** @type { string } */
         this.body = size(0);
-
         /** @type { string } */
         this.h6 = size(0);
-
         /** @type { string } */
         this.h5 = size(1);
-
         /** @type { string } */
         this.h4 = size(2);
-
         /** @type { string } */
         this.h3 = size(3);
-
         /** @type { string } */
         this.h2 = size(4);
-
         /** @type { string } */
-        this.h1 = size(5);
+        this.h1 = size(5); 
     }
 
     /**
