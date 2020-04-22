@@ -10,7 +10,7 @@ npm install @ntdalbec/type-scale
 ```javascript
 const { TypeScale, Scale } = require("type-scale");
 
-const scale = new TypeScale(Scale.MajorThird);
+const scale = new TypeScale({ scale: Scale.MajorThird });
 
 console.log(`\
 h1: ${scale.h1}
@@ -45,16 +45,23 @@ h6: ${scale.h6}
 Represents a Typographic scale in terms of HTML elements
 
 
-* [TypeScale](#TypeScale)
-    * [new TypeScale(options)](#new_TypeScale_new)
-    * [.body](#TypeScale+body) : <code>string</code>
-    * [.h6](#TypeScale+h6) : <code>string</code>
-    * [.h5](#TypeScale+h5) : <code>string</code>
-    * [.h4](#TypeScale+h4) : <code>string</code>
-    * [.h3](#TypeScale+h3) : <code>string</code>
-    * [.h2](#TypeScale+h2) : <code>string</code>
-    * [.h1](#TypeScale+h1) : <code>string</code>
-    * [.asCSS()](#TypeScale+asCSS) ⇒ <code>string</code>
+- [type-scale](#type-scale)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Classes](#classes)
+  - [TypeScale](#typescale)
+    - [new TypeScale(options)](#new-typescaleoptions)
+    - [typeScale.body : <code>string</code>](#typescalebody--string)
+    - [typeScale.h6 : <code>string</code>](#typescaleh6--string)
+    - [typeScale.h5 : <code>string</code>](#typescaleh5--string)
+    - [typeScale.h4 : <code>string</code>](#typescaleh4--string)
+    - [typeScale.h3 : <code>string</code>](#typescaleh3--string)
+    - [typeScale.h2 : <code>string</code>](#typescaleh2--string)
+    - [typeScale.h1 : <code>string</code>](#typescaleh1--string)
+    - [typeScale.asCSS() ⇒ <code>string</code>](#typescaleascss-%e2%87%92-string)
+  - [Scale : <code>enum</code>](#scale--enum)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 <a name="new_TypeScale_new"></a>
 
